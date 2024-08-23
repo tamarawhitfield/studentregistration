@@ -1,0 +1,75 @@
+css
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for better contrast */
+    color: #4B0082; /* Indigo color for text */
+    line-height: 1.6;
+}
+
+h2 {
+    color: #4B0082; /* Indigo color for headings */
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #4B0082; /* Border matching the theme */
+    border-radius: 5px;
+    width: 200px; /* Fixed width for input fields */
+    margin-right: 10px;
+}
+
+button {
+    background-color: #4B0082; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6A5ACD; /* Slightly lighter shade on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc; /* Light grey border */
+}
+
+th {
+    background-color: #4B0082; /* Header background color */
+    color: white; /* Header text color */
+}
+
+tr:hover {
+    background-color: #f2f2f2; /* Light grey background on row hover */
+}
+
+a {
+    color: #4B0082; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
